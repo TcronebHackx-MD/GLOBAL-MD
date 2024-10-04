@@ -33,6 +33,7 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 
 ### `GENERATE SESSION`
 
+`Click On Server 1 Button And Wait About 50 To 90 Seconds Website Will Take To Open As Per Renders Free Instance Policy`
 
 ### PAIRING SERVER 1
 --------
@@ -131,19 +132,37 @@ src='https://img.shields.io/badge/HOSTING%20PANEL-blue?style=for-the-badge&logo=
 
 
 ### `COMMANDS FOR TERMUX/UBUNTU`
-```bash
+
+_Make Sure Get Creds File Via Pairing And Upload It Inside session Folder Before Executing Below Commands_
+
+```
 apt update && apt upgrade -y
+```
+```
 pkg install proot-distro
+```
+```
 proot-distro install ubuntu
+```
+```
 proot-distro login ubuntu
-apt update && apt upgrade -y
+```
+```
+apt-get update && apt-get full-upgrade -y
+```
+```
 apt install -y webp git ffmpeg curl imagemagick
+```
+```
 apt -y remove nodejs
 curl -fsSl https://deb.nodesource.com/setup_lts.x | bash - && apt -y install nodejs
+```
+```
 git clone https://github.com/<your gitHub Username>/GLOBAL-MD
 cd GLOBAL-MD
-npm install
-npm start
+```
+```
+npm install && npm start
 ```
 
 --------
